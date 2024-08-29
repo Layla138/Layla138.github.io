@@ -92,3 +92,10 @@ footer a {
         margin-bottom: 2rem;
     }
 }
+
+aside .cdn-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 1rem;
+}

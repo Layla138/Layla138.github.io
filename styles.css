@@ -99,3 +99,31 @@ aside .cdn-image {
     display: block;
     margin-top: 1rem;
 }
+
+.cdn-image {
+    width: 100%;
+    max-width: 600px; /* Adjusted from 800px to 600px */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    max-width: 100%;
+    margin: 2em auto;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 1em;
+    font-style: italic;
+    color: #666;
+}
+
+@media (max-width: 820px) {
+    .cdn-image {
+        max-width: 95%;
+    }
+}
+
